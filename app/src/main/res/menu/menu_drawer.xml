@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.robyn.dayplus2.events.EventsActivity">
+    <group
+        android:id="@+id/actions"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/create_drawer"
+            android:title="@string/create_an_event"
+            android:icon="@drawable/ic_add">
+        </item>
+        <item
+            android:id="@+id/list_drawer"
+            android:title="@string/see_all_your_events"
+            android:icon="@drawable/ic_action_list">
+        </item>
+    </group>
+    <group
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/feedback_drawer"
+            android:title="@string/help_me_improve"
+            android:icon="@drawable/ic_action_cmt">
+        </item>
+    </group>
+</menu>

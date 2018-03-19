@@ -1,0 +1,67 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "0c96cfd28aa555b5ce022fe563199cb3",
+    "entities": [
+      {
+        "tableName": "Event",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`mUUID` TEXT, `mDatetime` INTEGER, `mTitle` TEXT, `mDescription` TEXT, `mPath` TEXT, `mRepeatMode` INTEGER, `mCategory` INTEGER, `mStar` INTEGER, PRIMARY KEY(`mUUID`))",
+        "fields": [
+          {
+            "fieldPath": "mUUID",
+            "columnName": "mUUID",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mDatetime",
+            "columnName": "mDatetime",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "mTitle",
+            "columnName": "mTitle",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mDescription",
+            "columnName": "mDescription",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mPath",
+            "columnName": "mPath",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mRepeatMode",
+            "columnName": "mRepeatMode",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "mCategory",
+            "columnName": "mCategory",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "mStar",
+            "columnName": "mStar",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "mUUID"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"0c96cfd28aa555b5ce022fe563199cb3\")"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:id="@+id/relativeLayout"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:fitsSystemWindows="true"
+                                             tools:context="com.robyn.dayplus2.events.EventsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_list_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyToolbar.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/MyToolbar.Dark"
+        app:subtitleTextAppearance="@style/MyToolbarSubtitleAppearance"
+        app:titleTextAppearance="@style/MyToolbarTitleAppearance">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/fg_container_events_ac"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/btm_nav_events"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/btm_nav_events"
+        style="@style/Widget.Design.BottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_bottom_nav"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "9557b9fbf03539dcd4b3db70c40fef17",
+    "entities": [
+      {
+        "tableName": "Event",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`mUUID` TEXT, `mTitle` TEXT, `mDatetime` INTEGER, `mPath` TEXT, PRIMARY KEY(`mUUID`))",
+        "fields": [
+          {
+            "fieldPath": "mUUID",
+            "columnName": "mUUID",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mTitle",
+            "columnName": "mTitle",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mDatetime",
+            "columnName": "mDatetime",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "mPath",
+            "columnName": "mPath",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "mUUID"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"9557b9fbf03539dcd4b3db70c40fef17\")"
+    ]
+  }
+}

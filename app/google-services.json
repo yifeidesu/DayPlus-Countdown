@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "788464059673",
+    "firebase_url": "https://dayplus-countdown.firebaseio.com",
+    "project_id": "dayplus-countdown",
+    "storage_bucket": "dayplus-countdown.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788464059673:android:64e26987155c2c3b",
+        "android_client_info": {
+          "package_name": "com.robyn.dayplus2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788464059673-b49cbp1988o20t3g0hunolthkll3fh45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robyn.dayplus2",
+            "certificate_hash": "525fc1af1c32228c9b6255830d562866262846e5"
+          }
+        },
+        {
+          "client_id": "788464059673-17gq1vi7625hr27coe89vtr95ktru2ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcyys8IK1oUtSGpvsdoRxr-y4VzJa5b4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788464059673-17gq1vi7625hr27coe89vtr95ktru2ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

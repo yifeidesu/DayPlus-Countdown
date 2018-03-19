@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<events_item-->
+        <!--android:visible="false"-->
+        <!--android:id="@+id/sort_category"-->
+        <!--android:title="SortcategoryCodegory"-->
+        <!--android:icon="@drawable/ic_sort_category"-->
+        <!--app:showAsAction="always" >-->
+
+        <!--<menu>-->
+            <!--<events_item-->
+                <!--android:icon="@drawable/ic_sort_category"-->
+                <!--android:title="Cake"-->
+                <!--android:id="@+id/cake" />-->
+            <!--<events_item-->
+                <!--android:title="Loving"-->
+                <!--android:id="@+id/loved" />-->
+            <!--<events_item-->
+                <!--android:title="Face"-->
+                <!--android:id="@+id/face" />-->
+            <!--<events_item-->
+                <!--android:title="Social"-->
+                <!--android:id="@+id/social" />-->
+            <!--<events_item-->
+                <!--android:title="Work"-->
+                <!--android:id="@+id/work" />-->
+        <!--</menu>-->
+    <!--</events_item>-->
+
+    <item
+        android:id="@+id/sort_events_menu"
+        android:title="@string/sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/create_events_menu"
+        android:title="@string/create_an_event"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="always"/>
+
+</menu>

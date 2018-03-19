@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="com.robyn.dayplus2.events.EventsActivity">
+
+    <item
+        android:id="@+id/star_btm"
+        android:icon="@drawable/ic_btm_nav_star"
+        android:title="@string/tab_star"/>
+
+    <item
+        android:id="@+id/dayplus_btm"
+        android:icon="@drawable/ic_action_plus"
+        android:title="@string/tab_dayplus"/>
+
+    <item
+        android:id="@+id/all_btm"
+        android:icon="@drawable/ic_action_all"
+        android:title="@string/tab_all"/>
+
+    <item
+        android:id="@+id/dayminus_btm"
+        android:icon="@drawable/ic_action_minus"
+        android:title="@string/tab_dayminus"/>
+
+    <item
+        android:id="@+id/category_btm"
+        android:icon="@drawable/ic_category_empty"
+        android:title="@string/tab_category"/>
+
+</menu>

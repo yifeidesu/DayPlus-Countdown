@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">DayPlus</string>
+
+    <string name="date_picker_title">Pick a date</string>
+    <string name="since">Since \</string>
+    <string name="until">Until \</string>
+    <string name="days"> \  Days</string>
+    <string name="remove">remove</string>
+    <string name="edit">edit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="edit_event_title">Edit Event</string>
+    <string name="tab_all">All</string>
+    <string name="tab_dayplus">Day+</string>
+    <string name="tab_dayminus">Day-</string>
+    <string name="see_all_your_events">See all your events</string>
+    <string name="help_me_improve">Help me improve</string>
+    <string name="remark">Remark</string>
+    <string name="from_gallery">From gallery</string>
+    <string name="from_camera">From camera</string>
+    <string name="back_ground_picture">back ground picture</string>
+    <string name="event_date">Event date</string>
+    <string name="star_this_event">Star this event</string>
+    <string name="repeat_mode">Repeat mode</string>
+    <string name="event_title">Event title</string>
+    <string name="category">Category</string>
+    <string name="tab_star">Starred</string>
+    <string name="tab_category">Category</string>
+    <string name="create_an_event">Create an event</string>
+    <string name="when_does_it_happen">When does it happen</string>
+    <string name="how_often_to_repeat">How often</string>
+    <string name="every_week">Every week</string>
+    <string name="every_month">Every month</string>
+    <string name="every_year">Every year</string>
+    <string name="never">Never</string>
+    <string name="save">Save</string>
+    <string name="save_snack_bar">Event saved</string>
+    <string name="empty_list_hint">No events in this category.\nCreate one!</string>
+    <string name="cancel">Cancel</string>
+    <string name="sort">Sort</string>
+</resources>
